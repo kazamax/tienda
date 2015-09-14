@@ -1,0 +1,232 @@
+body
+{
+	background: orange;
+	/*min-height: 100vh;
+	background-size: cover;
+	background-position: center;*/
+	font-family: 'Averia Libre', cursive;
+	font-size: 1.4em;
+	padding-top: 53px;
+
+}
+
+nav a {
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.1em;
+}
+
+h2.titulo{
+	border-radius:0.8em;
+	text-align:center;
+	margin:.8em;
+	padding:10px;
+	border: 2px dashed #000000;
+	color:#000000;
+	background-color:#AFEEEE;
+	box-shadow:3px 3px 12px 1px black;
+	font-size: 1.3em;
+	font-family: 'Indie Flower', cursive;
+
+}
+
+h1.titulo{
+	border-radius: .5em;
+	text-align:center;
+	margin:1em;
+	padding:.7em;
+	border: 2px dashed #000000;
+	color:#000000;
+	background-color:white;
+	box-shadow:3px 3px 12px 1px black;
+    font-size: 1.8em;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1,h3,h4,h5,h6
+{
+	font-family: 'Oswald', sans-serif;
+}
+
+/* Nav ----------*/
+.main-title
+{
+	color: orange !important;
+	font-size: 23px;
+}
+
+/* Footer -------*/
+footer
+{
+	background: lightskyblue;
+	text-align: center;
+	border-top: 2px solid black;
+
+}
+
+footer p
+{
+	text-align: justify;
+}
+
+ul.redes li
+{
+	display: inline-block;
+}
+
+ul.redes li a
+{
+	color: orange;
+}
+
+.avatar
+{
+	border: 5px solid orange;
+	border-radius: 50%;
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+
+.avatar-index
+{
+	margin: -0px 0px 0px -2px;
+	border: 2px solid black;
+	border-radius: 50%;
+	float: left;
+	height: 45px;
+	width: 45px;
+}
+
+/* Catalogo -------------*/
+#products {
+position: relative;
+max-width: 100%;
+width: 100%;
+}
+img {
+width: 100%;
+max-width: 100%;
+height: auto;
+}
+.white-panel {
+position: absolute;
+background: #FFF5EE;
+box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+padding: 9px;
+border: 2.5px solid black;
+border-radius: 1.5em;
+
+}
+.white-panel:hover {
+box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+margin-top: -4px;
+-webkit-transition: all 0.7s ease-in-out;
+-moz-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;
+transition: all 0.7s ease-in-out;
+}
+.product-info{
+	background: #fff;
+	border-radius: 1em;
+	padding: 1em;
+	margin: 0.5em;
+	border: 2px solid orange;
+	background:#E0FFFF;
+	color:black;
+}
+
+/* para mover las imagenes efecto 3d -------------*/
+#container {
+width: 300px;
+margin: 0 auto;
+}
+.ex2 img{
+height: 230px;
+width: 180px;
+margin: 15px 0;
+-webkit-transition: all 2s ease;
+-moz-transition: all 2s ease;
+-ms-transition: all 2s ease;
+transition: all 2s ease;
+}
+.ex2 img:hover {
+height: 260px;
+width: 200px;
+margin-left: 0px;
+}
+
+/* Detalle producto ---------*/
+.product-block
+{
+	background: #fff;
+	border-radius: 1em;
+	padding: 1em;
+	margin: 0.5em;
+	border: 2px solid black;
+}
+
+
+/* Carrito -----------*/
+.table-cart
+{
+	background: #fff;
+	border-radius: 1em;
+	margin-bottom: 30px;
+	padding: 1em;
+	border: 2px solid black;
+	margin: 15px;
+}
+
+.table-cart img
+{
+	width: 80px;
+}
+
+/* Detalle del pedido ------------*/
+.page
+{
+	background: #fff;
+	border-radius: 1em;
+	margin-bottom: 30px;
+	padding: 2em;
+	border: 2px solid black;
+	margin: 15px;
+}
+
+.page img
+{
+	width: 80px;
+}
+/* boton ir arriba*/
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#024959;
+	font-size:22px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+	border-radius: .5em;
+}
+
+.alert {
+	margin-bottom: 0px;
+}
+
+.color {
+	height:10px;
+	border-radius: 1em;
+	width:100%;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+h5{
+	font-family: 'Averia Libre', cursive;
+	font-size: 1.1em;
+}
